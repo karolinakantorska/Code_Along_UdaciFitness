@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import {
   FontAwesome,
   MaterialIcons,
@@ -19,9 +19,9 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View>
-            <Text>where is the Icon</Text>
-            <MaterialIcons name="directions-run" color={pink} size={100} />
-            <Text>where is the Icon</Text>
+
+            <MaterialIcons name="directions-run" color={pink} size={32} />
+            
           </View>
         );
       }
@@ -49,7 +49,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View>
-            <MaterialCommunityIcons name="swim" color={white} size={35} />
+            <MaterialCommunityIcons name="swim" color={pink} size={35} />
           </View>
         );
       }
@@ -63,7 +63,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View>
-            <FontAwesome name="bed" color={white} size={30} />
+            <FontAwesome name="bed" color={pink} size={30} />
           </View>
         );
       }
@@ -77,7 +77,7 @@ export function getMetricMetaInfo(metric) {
       getIcon() {
         return (
           <View>
-            <MaterialCommunityIcons name="food" color={white} size={35} />
+            <MaterialCommunityIcons name="food" color={pink} size={35} />
           </View>
         );
       }

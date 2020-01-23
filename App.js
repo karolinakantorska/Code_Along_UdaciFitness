@@ -6,10 +6,9 @@ export default class App extends React.Component {
   render () {
     return (
       <View>
-        <Text>Udaci Slider</Text>
+
         <AddEntry />
-        <Text>Udaci Slider</Text>
-        <Text>Udaci Slider</Text>
+
       </View>
     )
   }
