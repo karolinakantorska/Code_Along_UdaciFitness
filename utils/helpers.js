@@ -21,7 +21,7 @@ export function getMetricMetaInfo(metric) {
           <View>
 
             <MaterialIcons name="directions-run" color={pink} size={32} />
-            
+
           </View>
         );
       }
@@ -85,6 +85,12 @@ export function getMetricMetaInfo(metric) {
   };
 
   return typeof metric === "undefined" ? info : info[metric];
+}
+
+export function getDailyReminderValue () {
+  return {
+today: "Don't forget to log your data today"
+  }
 }
 
 export function isBetween(num, x, y) {
