@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 21228,
-  "expoServerNgrokUrl": "https://gv-c2e.anonymous.fitness.exp.direct",
-  "packagerNgrokUrl": "https://packager.gv-c2e.anonymous.fitness.exp.direct",
-  "ngrokPid": 8680,
+  "packagerPid": 7972,
+  "expoServerNgrokUrl": "https://8g-mt3.anonymous.code-along-udacifitness.exp.direct",
+  "packagerNgrokUrl": "https://packager.8g-mt3.anonymous.code-along-udacifitness.exp.direct",
+  "ngrokPid": 6816,
   "webpackServerPort": null
 }
